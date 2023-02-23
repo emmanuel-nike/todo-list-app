@@ -1,4 +1,5 @@
 {
   "name": "todoApp",
-  "displayName": "todoApp"
+  "displayName": "todoApp",
+  "version": "0.0.1"
 }

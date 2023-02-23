@@ -31,10 +31,10 @@ export default TaskInputField = (props) => {
 const styles = StyleSheet.create({
     container: {
         borderColor: '#fff',
-        backgroundColor: '#3E3364',
+        backgroundColor: '#679289',
         borderWidth: 1,
         marginHorizontal: 20,
-        borderRadius: 12,
+        borderRadius: 20,
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',

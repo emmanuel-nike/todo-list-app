@@ -27,8 +27,8 @@ const styles = StyleSheet.create({
         marginHorizontal: 20,
     },
     indexContainer: {
-        backgroundColor: '#3E3364',
-        borderRadius: 12,
+        backgroundColor: '#679289',
+        borderRadius: 20,
         marginRight: 10,
         alignItems: 'center',
         justifyContent: 'center',
@@ -40,8 +40,8 @@ const styles = StyleSheet.create({
         fontSize: 20,
     },
     taskContainer: {
-        backgroundColor: '#3E3364',
-        borderRadius: 12,
+        backgroundColor: '#679289',
+        borderRadius: 20,
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',

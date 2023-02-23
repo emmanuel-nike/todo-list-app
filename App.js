@@ -25,7 +25,8 @@ export default function App() {
 
   const addTask = (task) => {
     if (task == null) return;
-    const taskObject = { id: tasks[tasks.length - 1].id + 1, item: task, created_at: new Date() };
+    let id = tasks.length > 0 ? tasks[tasks.length - 1].id + 1 : 1;
+    const taskObject = { id: id, item: task, created_at: new Date() };
     setTasks([...tasks, taskObject]);
     Keyboard.dismiss();
     if (db == null) return;
